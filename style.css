@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #f0f0f0;
+}
+
+header{
+    background-color: #253E58;
+    height: 155px;
+    color: white;
+    display: flex;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+#icone-nome{
+    padding-right: 30px;
+}
+
+nav ul{
+    display: flex;
+    gap: 9px;
+}
+
+nav li{
+    list-style: none;
+    color: rgb(201, 201, 201);
+}
+
+.nome-ra {
+    font-weight: 400;
+    font-size: 2.8rem;
+    text-decoration: none;
+    color: white; 
+}
+nav a:hover{
+    text-decoration: underline;
+}
+
+.container-nav{
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0px;
+}
+
+#icone-fechar{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+nav ul a {
+    color: #dadada;
+    text-decoration: none;
+}
+
+.home{
+    margin: 45px 60px 50px 80px ;
+    display: flex;
+}
+
+.botoes{
+    margin-bottom: 27px;
+    margin-left: 4px;
+}
+
+button{
+    width: 95px;
+    height: 47px;
+    margin-right: 2px;
+    font-size: 1.1rem;
+    border: .5px solid rgb(219, 219, 219);
+}
+
+.btn.active{
+    background-color:#253E58;
+    color: white;
+}
+
+.cursos{
+    width: 110px;
+}
+
+.container-materias{
+    width:77.5%;
+}
+
+.container-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card{
+    background-color: rgba(94, 57, 10, 0.418);
+    height: 250px;
+    width: 29.7%;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 1px 5px 0 rgba(0,0,0,.12),0 3px 1px -2px rgba(0,0,0,.2);
+}
+
+
+.card:hover{
+    transition: all 0.4s ease-in-out;
+    transform: scale3d(1.05, 1.05, 1);
+}
+
+.imagem-card{
+    width: 100%;
+    height: 38%;
+    background-image: url(https://portalacademico.eniac.edu.br/pluginfile.php/960492/theme_snap/coverimage/1689812868/course-image.png);
+    background-position: center top;
+    display: flex;
+    justify-content: center;
+    background-size: 530%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.imagem-card img{
+    height: 40px;
+    margin-top: 75px;
+    margin-left: 5px;
+}
+
+.descricao-card{
+    width: 100% - 20px;
+    height: 52%;
+    background-color: white;
+    border-radius:0px 0px 5px 5px;
+    padding: 25px 25px 0px 25px;
+}
+
+.card a{
+    color: #253E58;
+    font-size: 1.15rem;
+}
+
+.card a:hover{
+    text-decoration: underline;
+}
+
+.progresso{
+    display: flex;
+    margin-top: 20px;
+    color: #565656;
+}
+
+#porcent-progresso{
+    margin-left: 115px;
+}
+
+.barra-de-progresso{
+    margin-top: 10px;
+    height: 6px;
+    width: 100%;
+    background-color: #dee2e6;
+}
+
+.linha-progresso{
+    height: 6px;
+    background-color: #3d5c1f;
+}
+
+
+
+.relatorio-lateral{
+    width:22.5%;
+    display: flex;
+    flex-direction: column;
+    background-color: #e1e1e1;
+    padding: 25px;
+}
+
+.relatorio-lateral h2, h3{
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1;
+    color: #253e58;
+}
+
+.relatorio-lateral h2{
+    margin-bottom: 30px;
+}
+
+#titulo-relatorio{
+    margin-bottom: 40px;
+}
+
+.relatorio-lateral p{
+    font-size: .845rem;
+    color: #253e58ce;
+}
+
+.entrega-pendente{
+    margin-bottom: 30px;
+}
+
+.divisao-relatorio{
+    line-height: 23px;
+}
+
+.divisao-relatorio:hover{
+    text-decoration: underline;
+}
+
+.data{
+    font-weight: 500;
+    font-size: .75rem;
+    color: #6c757d !important;
+}
+
+.entrega-status{
+    margin: 10px 0px 0px 210px;
+    font-size: 1rem;
+    color: #253e58 !important;
+}
+
+.relatorio-lateral a{
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    color: #2196F3;
+    text-decoration: none;
+    letter-spacing: -.2px;
+}
+
+.comentarios{
+    margin-top: 30px;
+}
+
+#mensagens{
+    margin: 20px 0px 20px 0px
+}
+
+.caixa-mensagens{
+    margin-bottom: 20px;
+}
